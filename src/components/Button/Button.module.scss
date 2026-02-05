@@ -1,0 +1,62 @@
+.button {
+  background-color: #7f8c8d;
+  color: #2c3e50;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-height: 60px;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  &:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  &.number {
+    background-color: #bdc3c7;
+    color: #2c3e50;
+
+    &:hover {
+      background-color: #d5dbdb;
+    }
+  }
+
+  &.operator {
+    background-color: #e67e22;
+    color: #fff;
+
+    &:hover {
+      background-color: #f39c12;
+    }
+  }
+
+  &.equals {
+    background-color: #27ae60;
+    color: #fff;
+
+    &:hover {
+      background-color: #2ecc71;
+    }
+  }
+
+  &.clear {
+    background-color: #e74c3c;
+    color: #fff;
+
+    &:hover {
+      background-color: #ec7063;
+    }
+  }
+
+  &.wide {
+    grid-column: span 2;
+  }
+}

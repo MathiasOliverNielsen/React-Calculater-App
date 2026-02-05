@@ -1,0 +1,15 @@
+.buttonGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+
+  // Plus button spans 2 rows
+  button:nth-child(8) {
+    grid-row: span 2;
+  }
+
+  // Equals button spans 2 rows
+  button:nth-child(15) {
+    grid-row: span 2;
+  }
+}

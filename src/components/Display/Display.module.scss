@@ -1,0 +1,17 @@
+.display {
+  background-color: #34495e;
+  color: #ecf0f1;
+  font-size: 2.5rem;
+  font-weight: 300;
+  text-align: right;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 2px solid #2c3e50;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  overflow: hidden;
+  word-break: break-all;
+}
